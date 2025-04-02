@@ -1,13 +1,20 @@
-// main.js inside identity_tracker/
-
-// Import from prompt_generator module
+// 📦 Imports
 const { generateDailyPrompt, yesterday, today } = require('../prompt_generator');
+const { getReflectionLog } = require('./get_reflections_g3');
 
-// Log today's prompt
-console.log("🗓️ Today’s Daily Prompt");
+// 🧠 Daily Reflection Report
+console.log("\n=== 🧠 GROK 3 REFLECTION REPORT ===");
+getReflectionLog();
+
+// 📅 Prompt Logs
+console.log("\n=== 🗓️ DAILY PROMPTS ===");
+console.log("→ Yesterday’s Prompt:");
+console.log(yesterday);
+
+console.log("\n→ Today’s Prompt:");
 console.log(today);
 
-// Local copy of Grok 3 Response (could later come from an API)
+// 🤖 GROK 3 Sync Layer (Could Later Be Fetched from API)
 const grokResponse = {
   day: "Wednesday",
   date: "04/02/2025",
@@ -29,6 +36,5 @@ const grokResponse = {
   }
 };
 
-// Log Grok 3 Response
-console.log("\n🤖 Grok 3 Sync Response");
+console.log("\n=== 🤖 GROK 3 SYNC RESPONSE ===");
 console.log(grokResponse);
