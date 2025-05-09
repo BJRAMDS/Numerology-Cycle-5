@@ -30,7 +30,7 @@ You are not just documenting your days—
 
 ---
 
-## 📂 File & Folder Structure (Current as of 04/10/2025)
+## 📂 File & Folder Structure (Current as of 05/09/2025)
 
 ```bash
 /
