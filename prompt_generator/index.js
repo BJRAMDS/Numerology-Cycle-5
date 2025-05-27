@@ -1,5 +1,5 @@
 // 📦 prompt_generator/index.js
-// Developer Sync: Based on Numerology5 Identity Tracker — Reflects evolving daily prompts per identity
+// Developer Sync: Based on Numerology Identity Tracker — Reflects evolving daily prompts per identity
 
 function generateDailyPrompt({ date, numerology, keywords, identities }) {
   return {
@@ -12,7 +12,7 @@ function generateDailyPrompt({ date, numerology, keywords, identities }) {
 
 // 🕐 YESTERDAY – Numerology 4: Structure, Foundation
 const yesterday = generateDailyPrompt({
-  date: "05/08/2025",
+  date: "05/26/2025",
   numerology: 4,
   keywords: ["Foundation", "Discipline", "Stability"],
   identities: {
@@ -33,7 +33,7 @@ const yesterday = generateDailyPrompt({
 
 // 📍 TODAY – Numerology 5: Movement, Disruption, Flow
 const today = generateDailyPrompt({
-  date: "05/09/2025",
+  date: "05/27/2025",
   numerology: 5,
   keywords: ["Freedom", "Creativity", "Disruption", "Navigation"],
   identities: {
@@ -54,7 +54,7 @@ const today = generateDailyPrompt({
 
 // 🚀 TOMORROW – Numerology 6: Harmony, Restoration
 const tomorrow = generateDailyPrompt({
-  date: "05/10/2025",
+  date: "05/28/2025",
   numerology: 6,
   keywords: ["Balance", "Care", "Restoration", "Reflection"],
   identities: {
@@ -79,4 +79,3 @@ module.exports = {
   today,
   tomorrow
 };
-
