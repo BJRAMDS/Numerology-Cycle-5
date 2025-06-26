@@ -18,7 +18,16 @@ You are not just documenting your days—
 
 ---
 
-## 🧠 Core Concepts
+## 🛠️ System Purpose
+
+Voro8 is a daily introspection framework using:
+
+- ✍️ **Journaling prompts**
+- 🔢 **Numerology signals**
+- 🌀 **Context sync logs**
+- 🧱 **Modular identity trackers**
+- 🔁 **Virtue-based action loops**
+
 
 | Component            | Purpose                                                                 |
 |----------------------|-------------------------------------------------------------------------|
@@ -45,6 +54,7 @@ You are not just documenting your days—
 │
 └── reflections/
     ├── get_reflections_g3.js               # Fetches Group 3-style reflections
+
 
     ├── logicGates.js                       # Applies reasoning models and logic flows across reflections
              
