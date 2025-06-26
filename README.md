@@ -1,52 +1,38 @@
 
-# 🧠 Voro8 / TITAN: Numerology Operating System
+# 🌀 TITAN Contextual Framework – Cycle 5 Refactor
 
-Welcome to your **personalized journaling system** powered by numerology, reflection, and contextual intelligence.
-This is not just a notebook—it's a **self-operating system** anchored in daily numerology and designed for transformation through intentional tracking.
+## 🔓 FREEDOM DAY (Cycle 5 — June 26, 2025)
 
----
-
-## 🛠️ System Purpose
-
-Voro8 is a live introspection framework built for adaptability and growth using:
-
-* ✍️ **Journaling Prompts** — Structured reflections aligned to numerology signals
-* 🔢 **Numerology Signals** — Daily numbers (1–9, 11, 22, 33) guide emotional and mental rhythms
-* 🌀 **Context Sync Logs** — Tracks interactions, shifts, and symbolic states across time
-* 🧱 **Modular Identity Trackers** — Reflects dynamic roles (Builder, Navigator, Reflector, etc.)
-* ♻️ **Virtue-Based Action Loops** — START → UPDATE → STOP cycles for continuous iteration
-
-You are not just journaling.
-🔁 *You’re architecting awareness into a system that evolves with you.*
+This repository is now aligned with **Cycle 5: Freedom Day**, which marks a critical turning point in the TITAN Framework. This phase emphasizes **release, refactor, and forward motion**. The lock has clicked. The door has swung. This repo **pushed it** by letting go of rigid structures and enabling dynamic modularity.
 
 ---
 
-## 📂 Folder Structure (as of 05/27/2025 — Numerology 5: Change, Movement, Flow)
+## 🧠 Key Changes This Cycle
+
+### ✅ Files Deleted:
+- `2025-06-17_Numerology-Cycle-EOD_Log.md`
+- `daily_logs/2025-06-17_Numerology-Cycle-EOD_Log.md`
+
+These files represented a previous cycle’s structure. Their removal symbolizes liberation from over-archived state tracking. Reflection now continues in **more fluid and focused form**.
+
+### ✅ Files Added:
+- `daily_logs/FreedomDay_Log.md`
+
+This new log reflects today's intentional action, real-time thought mapping, and dynamic journaling format. It's leaner, direct, and free from excessive historical weight.
+
+---
+
+## 📂 Updated Structure
 
 ```bash
-/
-├── README.md                          # Core system overview + structure log
-├── daily_logs/
-│   ├── daily_runner.js                # Automates journaling cycles (START → UPDATE → EOD → STOP)
-│   ├── Numerology5_IdentityTracker.js # Log reflecting momentum and roles for Day 5
-│   └── ...
-│
+.
+├── daily/
+│   ├── daily_runner.js
+│   ├── Numerology5_IdentityTracker.js
+│   └── daily_logs/
+│       └── FreedomDay_Log.md
 ├── identity_tracker/
-│   └── main.js                        # Manages rotating identities & quadrant roles
-│
 ├── prompt_generator/
-│   └── index.js                       # CRAFT-based AI journaling prompt system
-│
-└── reflections/
-    ├── get_reflections_g3.js         # G3-style pattern prompts. UPDATED
-    └── logicGates.js                 # Symbolic reasoning tools for reflection interpretation
-```
-
----
-
-## 🔧 In-Progress / TODO
-
-* [ ] Modularize `identity_tracker/main.js` to support hot-swapping roles mid-cycle
-* [ ] Build UI overlay for EOD markdown summaries (live render)
-* [ ] Add `PhaseCore_0_BeforeInit.md` and `PhaseCore_10_PostCycle.md` for complete cycle arc
-* [ ] Begin syncing logs to remote system or vault (MAL-enabled exports)
+├── reflections/
+├── settings.json
+└── README.md  ← you are here
